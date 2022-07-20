@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-width: 800px;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.post {
+    display: flex;
+    padding: 10px;
+    border: dodgerblue 2px solid;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.post__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.post-enter {
+    opacity: 0;
+}
+.post-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 75px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+.navbar__link {
+    border: dodgerblue 1px solid;
+    color: black;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar__login {
+    border: dodgerblue 1px solid;
+    color: black;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 62.5vw;
+}
+
+
+
+
+
